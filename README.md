@@ -1,10 +1,10 @@
-IMDB SCRAPPER
+MOVIES SCRAPPER
 =============
 
-A Python spider built on [Scrapy](http://scrapy.org). It scrapes and stores a list of top movies from IMDB.
+A Python spider built on [Scrapy](http://scrapy.org). It takes data from movie sites and stores it to MySQL Database. From now it support [IMDB](http://www.imdb.com) and also fetch movies covers and download to a directory. More scrapers will be added later.
 
-Run it:
+Usage:
 
-    cd imdb
+    cd movie_scrapper
     scrapy crawl imdb_toplist
 
